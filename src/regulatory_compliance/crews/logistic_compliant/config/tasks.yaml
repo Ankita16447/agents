@@ -1,0 +1,85 @@
+evaluate_document_analysis:
+  description: >
+    Evaluate the document's compliance with all applicable logistic regulations identified in the 
+    analysis phase. Focus specifically on Internal Trade & Custom Regulations, Transport & Safety Regulations,
+    Data Privacy & Security, Environmental & Sustaibability Regulations, Labor & Employment Regulations, 
+    Logistic Standards & Certifications requirements.
+    
+    For each compliance issue, you MUST identify:
+    1. The exact section header or field name where the issue occurs
+    2. The exact text that is non-compliant OR description of what is missing
+    3. The specific regulation that is violated
+    4. Why it's non-compliant and what should be there instead
+    
+    The document analysis is provided as input: {document_analysis}
+  expected_output: >
+    A detailed compliance assessment highlighting specific gaps, strengths, and recommendations for 
+    each applicable regulation.
+    {
+    "compliance_findings": {
+                        "reg1": {
+                                  "description": "A detailed description of the compliance findings for reg1",
+                                  "recommendations": ["List of recommendations for reg1"]
+                                },
+                        "reg2": {
+                                  "description": "A detailed description of the compliance findings for reg2",
+                                  "recommendations": ["List of recommendations for reg2"]
+                                }
+                        },
+                        "regulation_gaps": [{
+                        "description": "gap1"
+                        }, {
+                        "description": "gap2"
+                        }],
+                        "compliance_strengths": [{
+                        "description": "strength1"
+                        }, {
+                        "description": "strength2"
+                        }],
+                        "document_analysis": {document_analysis},
+                        "non_compliant_sections": [
+                            {
+                                "section_header": "The exact section header or field name (e.g., 'Description of Articles')",
+                                "text": "The exact text that is non-compliant OR description of what information is missing",
+                                "regulation": "The specific regulation this violates",
+                                "issue": "Description of the compliance issue",
+                                "recommendation": "How to make this section compliant"
+                            }
+                        ],
+                        "compliance_status": {
+                            "Internal Trade & Custom Regulations": {
+                                "status": "compliant/non-compliant",
+                                "issues": ["List of specific compliance issues"],
+                                "recommendations": ["List of specific recommendations"]
+                            },
+                            "Transport & Safety Regulations": {
+                                "status": "compliant/non-compliant",
+                                "issues": ["List of specific compliance issues"],
+                                "recommendations": ["List of specific recommendations"]
+                            },
+                            "Data Privacy & Security": {
+                                "status": "compliant/non-compliant",
+                                "issues": ["List of specific compliance issues"],
+                                "recommendations": ["List of specific recommendations"]
+                            },
+                            "Environmental & Sustaibability Regulations": {
+                                "status": "compliant/non-compliant",
+                                "issues": ["List of specific compliance issues"],
+                                "recommendations": ["List of specific recommendations"]
+                            },
+                            "Labor & Employment Regulations": {
+                                "status": "compliant/non-compliant",
+                                "issues": ["List of specific compliance issues"],
+                                "recommendations": ["List of specific recommendations"]
+                            },
+                            "Logistic Standards & Certifications": {
+                                "status": "compliant/non-compliant",
+                                "issues": ["List of specific compliance issues"],
+                                "recommendations": ["List of specific recommendations"]
+                            }
+                        }
+    }
+  agent: logistic_regulatory_expert
+  output_file: logistic_compliance_report.md
+  output_file_format: json
+

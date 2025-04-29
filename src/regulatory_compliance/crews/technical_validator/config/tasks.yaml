@@ -1,0 +1,49 @@
+assess_technical_controls:
+  description: >
+    Assess the technical security measures, quality management systems, regulatory compliance, 
+    and electronic record validation aspects of the document. Focus on:
+    - International Trade & Customs Regulations (WCO, C-TPAT, AEO)
+    - Transportation & Safety Regulations (FMCSA, ICAO Dangerous Goods, UIC, IMO SOLAS)
+    - Data Privacy & Security (GDPR)
+    - Environmental & Sustainability Regulations (EU Green Deal, IMO 2023 GHG Strategy)
+    - Labor & Employment Regulations (OSHA, ILO MLC)
+    - Logistics Standards & Certifications (ISO 28000, ISO 9001, ISO 27001, TAPA Standards)
+    
+    The document analysis is provided as input: {document_analysis}  
+    The regulatory compliance evaluation is provided as input: {regulatory_compliance_evaluation}  
+
+  expected_output: >
+    A comprehensive technical assessment outlining strengths and gaps in logistics compliance, 
+    quality management systems, and electronic records validation.
+    {
+                "technical_findings": {
+                        "area1": {
+                                  "description": "A detailed description of the technical findings for area1",
+                                  "recommendations": ["List of recommendations for area1"]
+                                },
+                        "area2": {
+                                  "description": "A detailed description of the technical findings for area2",
+                                  "recommendations": ["List of recommendations for area2"]
+                                }
+                        },
+                "qms_assessment": {
+                        "strengths": ["List of QMS strengths"],
+                        "gaps": ["List of QMS gaps"],
+                        "recommendations": ["List of QMS recommendations"]
+                },
+                "regulatory_compliance_assessment": {
+                        "strengths": ["List of regulatory compliance strengths"],
+                        "gaps": ["List of regulatory compliance gaps"],
+                        "recommendations": ["List of compliance recommendations"]
+                },
+                "electronic_records_compliance": {
+                        "strengths": ["List of electronic records compliance strengths"],
+                        "gaps": ["List of electronic records compliance gaps"],
+                        "recommendations": ["List of electronic records compliance recommendations"]
+                },
+                "document_analysis": {document_analysis},
+                "regulatory_compliance_evaluation": {regulatory_compliance_evaluation}
+            }
+  agent: technical_validator
+  output_file_format: json
+  output_file: technical_validator_report.md

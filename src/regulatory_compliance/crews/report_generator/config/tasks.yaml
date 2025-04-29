@@ -1,0 +1,70 @@
+generate_compliance_report:
+  description: >
+    Synthesize all findings from regulatory and technical assessments into a comprehensive compliance report.
+    Prioritize identified issues, provide cross-regulatory analysis, and outline clear recommendations.
+    
+    The document analysis is provided as: {document_analysis}
+    The regulatory compliance evaluation is provided as: {regulatory_compliance_evaluation}
+    The technical assessment is provided as: {technical_assessment}
+    
+    Generate a markdown report with sections for:
+    1. Executive Summary
+    2. Document Information
+    3. Compliance Findings by Regulation
+    4. Technical Assessment
+    5. Prioritized Action Items
+    6. Detailed Recommendations
+    7. Non-Compliant Document Sections (Highlighted)
+    
+    For the Non-Compliant Document Sections, highlight each non-compliant text passage from the document,
+    along with the regulation it violates and recommended fixes.
+    
+  expected_output: >
+    A complete compliance report with executive summary, detailed findings organized by regulation,
+    prioritized action items, and specific recommendations for addressing compliance gaps.
+    The report should be in Markdown format.
+    {
+      "compliance_report_markdown": "# Compliance Report\n\n## Executive Summary\n...",
+      "prioritized_actions": [
+        {
+          "description": "action1", "priority": "High"
+        },
+        {
+          "description": "action2", "priority": "Medium"
+          }
+      ],
+      "executive_summary": "Summary of key findings and recommendations...",
+      "highlighted_non_compliant_sections": [
+        {
+          "text": "The exact text from the document that is non-compliant",
+          "regulation": "The specific regulation this text violates",
+          "issue": "Description of the compliance issue",
+          "recommendation": "How to make this section compliant"
+        }
+      ],
+      "compliance_status": {
+        "Internal Trade & Custom Regulations": {
+          "status": "non-compliant/compliant",
+          "issues": ["Missing risk assessment documentation"],
+          "recommendations": ["Conduct annual risk assessments"]
+        },
+        "Transport & Safety Regulations": {
+          "status": "non-compliant/compliant",
+          "issues": ["Missing consent mechanisms"],
+          "recommendations": ["Implement explicit consent mechanisms"]
+        },
+        "Data Privacy & Security": {
+          "status": "non-compliant/compliant",
+          "issues": [],
+          "recommendations": []
+        },
+        "Environmental & Sustainability Regulations": {
+          "status": "non-compliant/compliant",
+          "issues": ["Insufficient audit trail"],
+          "recommendations": ["Implement comprehensive audit logging"]
+        },
+        ...
+      }
+    }
+  agent: report_generator
+  output_file_format: json 

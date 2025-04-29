@@ -1,0 +1,56 @@
+{
+  "Internal Trade & Custom Regulations": {
+    "status": "non-compliant",
+    "issues": [
+      "Missing ShipDate and DeliveryDate which are required for customs compliance."
+    ],
+    "recommendations": [
+      "Add relevant shipment dates to the freight bill."
+    ]
+  },
+  "Transport & Safety Regulations": {
+    "status": "non-compliant",
+    "issues": [
+      "Driver details are not provided."
+    ],
+    "recommendations": [
+      "Include driver's name and license number."
+    ]
+  },
+  "Data Privacy & Security": {
+    "status": "non-compliant",
+    "issues": [
+      "Lack of data privacy compliance measures."
+    ],
+    "recommendations": [
+      "Incorporate a data privacy statement."
+    ]
+  },
+  "Environmental & Sustainability Regulations": {
+    "status": "non-compliant",
+    "issues": [
+      "No sustainability or emission information provided."
+    ],
+    "recommendations": [
+      "Add emissions documentation."
+    ]
+  },
+  "Labor & Employment Regulations": {
+    "status": "non-compliant",
+    "issues": [
+      "No mention of compliance with labor laws."
+    ],
+    "recommendations": [
+      "Document labor compliance and worker safety."
+    ]
+  },
+  "Logistic Standards & Certifications": {
+    "status": "non-compliant",
+    "issues": [
+      "Lack of logistics standards and certification mentions."
+    ],
+    "recommendations": [
+      "Include logistic certifications."
+    ]
+  }
+}

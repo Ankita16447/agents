@@ -1,0 +1,312 @@
+# Knowledge Base for Logistic Regulatory Compliance AI Agent
+
+## Overview
+This knowledge base provides detailed information about key logistic regulations and compliance frameworks. It is designed to be used by an AI agent to evaluate document compliance with these regulations accurately.
+
+---
+
+## Regulatory Frameworks
+
+---
+
+### World Customs Organization (WCO) Guidelines  
+- **Purpose**: Standardize customs procedures globally to enhance trade facilitation and security.  
+- **Key Rules**:  
+  - SAFE Framework of Standards for secure and efficient global trade.  
+  - Harmonized System (HS) for classification of goods.  
+  - Risk management and authorized operator programs.  
+- **Requirements**:  
+  - Adopt modern customs procedures (pre-arrival processing, risk-based inspections).  
+  - Collaborate with global customs authorities.  
+  - Maintain accurate and verifiable trade records.  
+- **Documentation**:  
+  - Import/export declarations  
+  - HS code classification sheets  
+  - Customs compliance manuals  
+  - Trade facilitation audit reports  
+
+---
+
+### Customs-Trade Partnership Against Terrorism (C-TPAT)  
+- **Purpose**: Strengthen international supply chain and border security through public-private partnerships.  
+- **Key Rules**:  
+  - Conduct supply chain security risk assessments.  
+  - Implement security protocols across the supply chain.  
+  - Partner verification and compliance audits.  
+- **Requirements**:  
+  - Physical access controls and perimeter security.  
+  - Personnel background checks and training.  
+  - Incident reporting mechanisms.  
+- **Documentation**:  
+  - Security profiles and risk assessment reports  
+  - Partner compliance agreements  
+  - Training records and incident logs  
+  - C-TPAT membership certifications  
+
+---
+
+### Authorized Economic Operator (AEO) Program  
+- **Purpose**: Facilitate trade by recognizing compliant and secure supply chain partners.  
+- **Key Rules**:  
+  - Voluntary certification requiring customs compliance and security measures.  
+  - Mutual recognition agreements with other nations.  
+- **Requirements**:  
+  - Maintain records of customs transactions.  
+  - Implement internal security audits and controls.  
+  - Demonstrate financial solvency and compliance history.  
+- **Documentation**:  
+  - AEO self-assessment questionnaires  
+  - Security and customs compliance records  
+  - Certification documents  
+  - Audit trails and compliance reports  
+
+---
+
+### Federal Motor Carrier Safety Administration (FMCSA)  
+- **Purpose**: Ensure safety in commercial motor vehicle operations in the U.S.  
+- **Key Rules**:  
+  - Hours of Service (HOS) regulations.  
+  - Vehicle maintenance and inspection standards.  
+  - Use of Electronic Logging Devices (ELDs).  
+- **Requirements**:  
+  - Driver qualification and safety training.  
+  - Routine vehicle inspections and servicing.  
+  - Recordkeeping of driving hours and logs.  
+- **Documentation**:  
+  - Driver logs and ELD records  
+  - Vehicle inspection and maintenance reports  
+  - Training and certification logs  
+  - Incident and accident reports  
+
+---
+
+### International Civil Aviation Organization (ICAO) – Dangerous Goods Regulations (DGR)  
+- **Purpose**: Regulate the safe transport of hazardous materials by air.  
+- **Key Rules**:  
+  - Classification, packaging, and labeling of dangerous goods.  
+  - Training requirements for handlers and shippers.  
+  - Emergency response and reporting procedures.  
+- **Requirements**:  
+  - Compliance with ICAO Technical Instructions.  
+  - Use approved packaging and documentation standards.  
+  - Regular staff training and certification.  
+- **Documentation**:  
+  - Dangerous Goods Declarations (DGD)  
+  - Packaging and labeling checklists  
+  - Training certificates  
+  - Emergency response plans  
+
+---
+
+### International Union of Railways (UIC)  
+- **Purpose**: Harmonize railway operations and promote interoperability in international rail logistics.  
+- **Key Rules**:  
+  - Technical specifications for interoperability (TSIs).  
+  - Freight corridor optimization.  
+  - Rail safety and digitalization standards.  
+- **Requirements**:  
+  - Adhere to UIC loading and equipment standards.  
+  - Integrate digital freight tracking solutions.  
+  - Comply with safety and operation protocols.  
+- **Documentation**:  
+  - UIC standards manuals  
+  - Rail freight agreements and route maps  
+  - Safety training documentation  
+  - Inspection and certification records  
+
+---
+
+### International Maritime Organization (IMO) & SOLAS  
+- **Purpose**: Ensure safety at sea and prevent maritime pollution.  
+- **Key Rules**:  
+  - SOLAS: Safety equipment, ship structure, and Verified Gross Mass (VGM).  
+  - ISPS Code: Maritime security protocols.  
+  - MARPOL: Marine pollution control.  
+- **Requirements**:  
+  - Implement safety and security plans on vessels and ports.  
+  - Maintain VGM compliance for containers.  
+  - Ensure pollution prevention measures.  
+- **Documentation**:  
+  - Ship Safety Management Certificates  
+  - VGM records  
+  - ISPS security plans  
+  - Environmental compliance reports  
+
+---
+
+### General Data Protection Regulation (GDPR)  
+- **Purpose**: Protect personal data and privacy in digital logistics transactions.  
+- **Key Rules**:  
+  - Data processing transparency and user consent.  
+  - Right to access, rectify, and delete data.  
+  - Mandatory breach reporting.  
+- **Requirements**:  
+  - Maintain lawful basis for processing logistics data.  
+  - Appoint a Data Protection Officer (DPO) if necessary.  
+  - Conduct Data Protection Impact Assessments (DPIAs).  
+- **Documentation**:  
+  - Privacy policies and consent forms  
+  - Data processing agreements (DPAs)  
+  - DPIA reports  
+  - Breach notification protocols  
+
+---
+
+### EU Green Deal & Corporate Sustainability Reporting Directive (CSRD)  
+- **Purpose**: Promote environmental accountability and sustainable practices.  
+- **Key Rules**:  
+  - Annual ESG disclosures by large and listed logistics firms.  
+  - Sustainability KPIs and impact metrics.  
+- **Requirements**:  
+  - Measure and report Scope 1, 2, and 3 emissions.  
+  - Align with EU Taxonomy for sustainable activities.  
+  - Implement sustainable transport practices.  
+- **Documentation**:  
+  - Sustainability reports and GHG inventories  
+  - Supplier sustainability audits  
+  - EU Taxonomy alignment evidence  
+  - Energy efficiency project plans  
+
+---
+
+### IMO 2023 Greenhouse Gas (GHG) Reduction Strategy  
+- **Purpose**: Cut GHG emissions from ships and maritime transport.  
+- **Key Rules**:  
+  - Emission targets for 2030 and 2050.  
+  - Energy Efficiency Existing Ship Index (EEXI).  
+  - Carbon Intensity Indicator (CII) requirements.  
+- **Requirements**:  
+  - Monitor fuel consumption and emissions.  
+  - Implement technical and operational improvements.  
+  - Maintain compliance with SEEMP (Ship Energy Efficiency Management Plan).  
+- **Documentation**:  
+  - EEXI and CII reports  
+  - SEEMP records  
+  - Fuel consumption logs  
+  - Emission reduction strategies  
+
+---
+
+### Occupational Safety and Health Administration (OSHA – U.S.)  
+- **Purpose**: Ensure safe working conditions in logistics environments.  
+- **Key Rules**:  
+  - Hazard Communication Standard (HCS).  
+  - Material handling and ergonomics guidelines.  
+  - Safety audits and incident reporting.  
+- **Requirements**:  
+  - Train workers on health and safety risks.  
+  - Provide Personal Protective Equipment (PPE).  
+  - Conduct regular safety inspections.  
+- **Documentation**:  
+  - Safety training logs  
+  - Incident and injury reports  
+  - Equipment maintenance logs  
+  - OSHA compliance checklists  
+
+---
+
+### International Labour Organization (ILO)  
+- **Purpose**: Promote fair labor practices and social justice in global logistics.  
+- **Key Rules**:  
+  - Freedom of association and collective bargaining.  
+  - Elimination of forced and child labor.  
+  - Decent work conditions and wages.  
+- **Requirements**:  
+  - Establish fair recruitment and employment policies.  
+  - Monitor subcontractors for compliance.  
+  - Provide grievance redressal mechanisms.  
+- **Documentation**:  
+  - Labor contracts and policies  
+  - Worker feedback and grievance logs  
+  - ILO compliance checklists  
+  - Audit and monitoring reports  
+
+---
+
+### Maritime Labour Convention (MLC)  
+- **Purpose**: Set global minimum standards for seafarer working and living conditions.  
+- **Key Rules**:  
+  - Hours of rest, wages, medical care, and repatriation.  
+  - Mandatory inspections and certification.  
+- **Requirements**:  
+  - Comply with flag state and port state control inspections.  
+  - Maintain seafarer employment agreements.  
+  - Provide onboard accommodation and welfare facilities.  
+- **Documentation**:  
+  - MLC certificates  
+  - Crew contracts and rosters  
+  - Health and medical records  
+  - Onboard condition audit reports  
+
+---
+
+### ISO 28000 – Supply Chain Security Management  
+- **Purpose**: Ensure security across supply chain operations.  
+- **Key Rules**:  
+  - Risk management, threat mitigation, and incident response.  
+  - Continuous monitoring and improvement.  
+- **Requirements**:  
+  - Develop a security management policy.  
+  - Conduct vulnerability assessments.  
+  - Maintain access controls and surveillance.  
+- **Documentation**:  
+  - Risk assessment reports  
+  - Security policy manuals  
+  - Incident logs and response plans  
+  - Audit reports and corrective actions  
+
+---
+
+### ISO 9001 – Quality Management Systems  
+- **Purpose**: Improve quality, efficiency, and customer satisfaction in logistics processes.  
+- **Key Rules**:  
+  - Process standardization and continual improvement.  
+  - Customer feedback and corrective actions.  
+- **Requirements**:  
+  - Define measurable objectives and KPIs.  
+  - Implement internal audits and reviews.  
+  - Document all processes and quality procedures.  
+- **Documentation**:  
+  - Quality manuals  
+  - Audit and review reports  
+  - Non-conformance logs  
+  - Performance metrics  
+
+---
+
+### ISO 27001 – Information Security Management Systems  
+- **Purpose**: Safeguard digital logistics data and IT infrastructure.  
+- **Key Rules**:  
+  - Information security risk management.  
+  - Access controls and incident handling.  
+- **Requirements**:  
+  - Define and implement ISMS policies.  
+  - Conduct regular risk assessments and penetration tests.  
+  - Ensure business continuity planning.  
+- **Documentation**:  
+  - Information security policies  
+  - Risk treatment plans  
+  - Access logs and audit trails  
+  - Security incident response records  
+
+---
+
+### Transported Asset Protection Association (TAPA) Standards  
+- **Purpose**: Protect high-value goods during transport and storage.  
+- **Key Rules**:  
+  - Facility Security Requirements (FSR).  
+  - Trucking Security Requirements (TSR).  
+  - Parking Security Requirements (PSR).  
+- **Requirements**:  
+  - Secure premises, vehicles, and parking areas.  
+  - Implement GPS tracking and real-time monitoring.  
+  - Vet and train staff handling secure cargo.  
+- **Documentation**:  
+  - Security certifications  
+  - GPS logs and surveillance reports  
+  - Training and vetting records  
+  - Incident and theft reports  
+
+---
+
+Let me know if you want this exported as a **PDF**, **Word file**, or used in a **compliance dashboard or internal wiki.**

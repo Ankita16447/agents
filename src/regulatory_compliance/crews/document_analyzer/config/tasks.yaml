@@ -1,0 +1,47 @@
+analyze_logistics_document:
+  description: >
+    Analyze the provided logistics document to identify its type, purpose, and applicable regulations
+    with a focus on the compliance requirements for {country}.
+    Extract key metadata and create a comprehensive summary of the document content.
+    Here is the document: {document}
+  expected_output: >
+    A detailed analysis including document type, purpose, applicable regulations specifically for {country}:
+    1. **International Trade & Customs Regulations**:
+       - World Customs Organization (WCO) guidelines
+       - {country}-specific customs regulations and requirements
+       - Regional trade agreements affecting {country}
+
+    2. **Transportation & Safety Regulations (Rail, Road, Air, Maritime Transport)**:
+       - Transportation safety regulations specific to {country}
+       - International standards applicable in {country}
+       - Regional transportation accords affecting {country}
+
+    3. **Data Privacy & Security**:
+       - {country}'s data protection and privacy laws
+       - Information security requirements in {country}
+
+    4. **Environmental & Sustainability Regulations**:
+       - {country}'s environmental regulations for logistics and transport
+       - Emissions and sustainability requirements in {country}
+
+    5. **Labor & Employment Regulations**:
+       - {country}'s labor laws affecting logistics operations
+       - Worker safety standards applicable in {country}
+
+    6. **Logistics Standards & Certifications**:
+       - {country}-specific logistics standards and certification requirements
+       - ISO and international standards recognized in {country}
+
+    and a concise summary of the document content.
+      {         "document_type": "type of the document",
+                "document_org": "organization related to the document",
+                "document_summary": "A detailed summary of the document",
+                "applicable_regulations": ["List of applicable regulations for {country}"],
+                "country": "{country}",
+                "metadata": {
+                "key": "value"
+                }
+            }
+  agent: logistics_document_analyzer
+  output_file: document_analyzer_report.md
+  output_file_format: json
